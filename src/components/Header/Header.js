@@ -5,15 +5,15 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
-  <Container>
+  <Container style={{ textAlign: "center" }}>
     <Div1>
       <Link href={"/"}>
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
-          <Span style={{ marginLeft: "10px", fontSize: "3rem" }}>@SanjuManna</Span>
+          <Span style={{ marginTop: "5px", fontSize: "2.5rem" }}>@SanjuManna</Span>
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 style={{ marginTop: "5px" }}>
       <li>
         <Link href={"#projects"}>
           <NavLink >Projects</NavLink>
